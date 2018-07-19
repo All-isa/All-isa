@@ -1,8 +1,8 @@
 {
-  "name": "react-landing",
+  "name": "allisa-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://flexdinesh.github.io/",
+  "homepage": "https://all-isa.github.io/All-isa/",
   "scripts": {
     "start": "node scripts/start.js",
     "start:prod": "ENV=prod node scripts/start.js",
@@ -11,11 +11,9 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
     "predeploy": "npm run build",
-    "deploy": "aws s3 cp build/ s3://dineshpandiyan.com --recursive"
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
     "babel-eslint": "7.2.3",
@@ -38,7 +36,7 @@
     "extract-text-webpack-plugin": "3.0.2",
     "file-loader": "1.1.5",
     "fs-extra": "3.0.1",
-    "gh-pages": "^1.1.0",
+    "gh-pages": "^1.2.0",
     "html-webpack-plugin": "2.29.0",
     "jest": "20.0.4",
     "node-sass": "^4.7.2",
@@ -47,7 +45,9 @@
     "postcss-loader": "2.0.8",
     "promise": "8.0.1",
     "raf": "3.4.0",
+    "react": "^16.2.0",
     "react-dev-utils": "^5.0.0",
+    "react-dom": "^16.2.0",
     "sass-loader": "^6.0.7",
     "style-loader": "0.19.0",
     "sw-precache-webpack-plugin": "0.11.4",
